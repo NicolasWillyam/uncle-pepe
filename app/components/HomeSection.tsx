@@ -57,7 +57,7 @@ export default function HomeSection() {
             className="mt-8 text-gray-400 text-[14px] leading-[22px]"
           >
             
-            At Uncle PepeCoin, we're pioneering the next chapter in cryptocurrency, boldly positioning ourselves as the "Doge Killer" with a clear mission to dethrone Dogecoin from its current pedestal. Our innovative approach, driven by a commitment to efficiency, speed, and community engagement, sets us apart in the digital currency landscape. We're not just creating a cryptocurrency; we're building a movement. With PepeCoin, we're offering more than just an alternative—we're providing a superior choice that redefines the future of digital transactions. Join us as we embark on this journey to revolutionize the crypto space, making Doge watch from the sidelines as PepeCoin takes the lead.
+            At Uncle PepeCoin, we{"'"}re pioneering the next chapter in cryptocurrency, boldly positioning ourselves as the Doge Killer with a clear mission to dethrone Dogecoin from its current pedestal. Our innovative approach, driven by a commitment to efficiency, speed, and community engagement, sets us apart in the digital currency landscape. We{"'"}re not just creating a cryptocurrency; we{"'"}re building a movement. With PepeCoin, we{"'"}re offering more than just an alternative—we{"'"}re providing a superior choice that redefines the future of digital transactions. Join us as we embark on this journey to revolutionize the crypto space, making Doge watch from the sidelines as PepeCoin takes the lead.
                           
           </motion.div>
           
