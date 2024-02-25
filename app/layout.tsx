@@ -6,9 +6,13 @@ import StarsCanvas from "./components/StarBackground";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Redacted Finance",
-  description: "Redacted Finance",
-};
+  title: "Uncle Pepe Coin",
+  description: "",
+  icons: {
+    icon: "/uncle-pepe-logo.png",
+  },
+}
+
 
 export default function RootLayout({
   children,

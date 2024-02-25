@@ -88,7 +88,7 @@ export default function ContentSection({
           drag
           className=""
         >
-          <button className="text-[16px] mt-8 font-medium py-2 px-8 bg-blue-600 rounded-lg hover:bg-blue-700 duration-700 text-white">
+          <button className="text-[16px] mt-8 font-medium py-2 px-8 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-lg  duration-700 text-white">
           Follow us
         </button>
         </motion.div>

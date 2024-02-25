@@ -70,7 +70,7 @@ export default function Footer() {
           <div className="h-8 w-8 rounded-full flex items-center justify-center">
             <Image src="/uncle-pepe-logo.png" width={24} height={24} alt="image logo" />
           </div>
-          <p className="uppercase text-[20px] ml-1 font-medium text-white">Uncle Pepe coin</p>
+          <p className="uppercase text-[20px] ml-1 font-semibold text-white">Uncle Pepe coin</p>
         </div>
         
         <div className="sm:w-2/3 grid grid-cols-2 sm:grid-cols-4 mt-4 sm:mt-0 gap-10">

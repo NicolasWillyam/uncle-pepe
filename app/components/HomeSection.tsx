@@ -54,10 +54,26 @@ export default function HomeSection() {
 
           <motion.div
             variants={slideInFromLeft(0.75)}
-            className="mt-8 text-gray-400 text-[14px] leading-[22px]"
+            className="mt-8 text-gray-400 text-[16px] leading-[28px]"
           >
+
+            {/* <div className="text-[20px] font-bold">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                {" "}
+                "We{"'"}re not just creating a cryptocurrency, we{"'"}re building a movement."{" "}
+              </span>
+            </div> */}
             
-            At Uncle PepeCoin, we{"'"}re pioneering the next chapter in cryptocurrency, boldly positioning ourselves as the Doge Killer with a clear mission to dethrone Dogecoin from its current pedestal. Our innovative approach, driven by a commitment to efficiency, speed, and community engagement, sets us apart in the digital currency landscape. We{"'"}re not just creating a cryptocurrency; we{"'"}re building a movement. With PepeCoin, we{"'"}re offering more than just an alternative—we{"'"}re providing a superior choice that redefines the future of digital transactions. Join us as we embark on this journey to revolutionize the crypto space, making Doge watch from the sidelines as PepeCoin takes the lead.
+
+           
+            
+           <div className="mt-4">
+             At Uncle PepeCoin, we{"'"}re pioneering the next chapter in cryptocurrency, boldly positioning ourselves as the Doge Killer with a clear mission to dethrone Dogecoin from its current pedestal. Our innovative approach, driven by a commitment to efficiency, speed, and community engagement, sets us apart in the digital currency landscape. <br /> 
+           </div>
+
+           <button className="text-[14px] mt-8 font-medium px-4 py-1 sm:py-2 sm:px-8  rounded-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-white">
+          Explore now
+        </button>
                           
           </motion.div>
           
