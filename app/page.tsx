@@ -17,45 +17,24 @@ export default function Home() {
       <div className="w-full flex justify-center fixed  text-white bottom-6 animate-bounce z-10">
         <IoArrowDownCircleOutline size={30} />
       </div>
-      <div className="max-w-[1200px] mx-auto sm:p-0 px-4">
-        <Header />
-        <HomeSection />
-        <ContentSection
-          name="Redacted Protocol"
-          title="Unlock the Influence Economy"
-          discription="The Redacted Protocol is the hub for BTRFLY, which allows users to participate in governance and earn revenue from the Redacted treasury and Redacteds products."
-          list1="Lock BTRFLY for rlBTRFLY to earn revenue distributed in ETH."
-          list2="Earn BTRFLY emissions through rlBTRFLY to earn a growing share of governance power."
-          list3="Access governance rights to the DAO and shape the future of Redacted."
-          imgUrl={card1.src}
-        />
-        <ContentSection
-          name="Pirex"
-          title="Redefining Liquid"
-          discription="Pirex is a product by Redacted which creates liquid wrappers that allow for auto-compounding and the tokenization of future yield/vote events"
-          list1="Flexible liquid wrapper that can be applied to any yield-generating asset"
-          list2="Deep liquidity, autocompounding and strong peg enforcement for all Pirex markets"
-          list3="Native futures exchange that allows users to long, short, and leverage future yield"
-          imgUrl={card2.src}
-        />
-        <ContentSection
-          name="Hidden Hand"
-          title="Get the Most Out of Your Vote"
-          discription="Hidden Hand by Redacted is a marketplace for governance incentives, commonly referred to as bribes. Protocols can leverage Hidden Hand to enable more efficient governance processes and to engage their voters."
-          list1="Allow users to get bribed for their vote in respect to snapshot votes, gauge weights, and more"
-          list2="Over 10 protocols have integrated with Hidden Hand to to maximize their governance participation"
-          list3="Enable a new use-case for your token that attracts new users and DAOs to governance participation"
-          imgUrl={card3.src}
-        />
-        <ContentSection
-          name="Dinero"
-          title="Own the mempool with leverage"
-          discription="Permissionless stablecoin backed by user-owned Ethereum blockspace. Dinero can be used for gas on mainnet by routing transactions through a Redacted darkpool."
-          list1="A stablecoin that can be used for gas on Ethereum mainnet which routes through a flashbots like private mempool"
-          list2="Leverage your ETH 2.0 validating deposit with a permissionless credit facility"
-          list3="The native stablecoin of the Redacted Cartel"
-          imgUrl={card4.src}
-        />
+      <div className="sm:p-0 px-4">
+        <div className="w-full h-screen bg-cover bg-no-repeat bg-center bg-[url('https://pepecoinsol.xyz/assets/images//logo/o.jpg')]">
+          <div className="w-full h-screen bg-black/50">
+            <Header />
+            <HomeSection />
+          </div>
+        </div>
+
+        <div className="max-w-[1080px] mx-auto">
+          <video autoPlay loop className="w-full full mt-20">
+            <source src="/video.mp4" />
+          </video>
+
+          <div className="w-full h-[90vh] mt-20 bg-cover bg-no-repeat bg-center bg-[url('https://pepecoinsol.xyz/assets/images/logo/j1.webp')]"></div>
+          <div className="w-full h-[90vh] mt-20 bg-cover bg-no-repeat bg-center bg-[url('https://pepecoinsol.xyz/assets/images/logo/j2.jpg')]"></div>
+          <div className="w-full h-[90vh] mt-20 bg-cover bg-no-repeat bg-center bg-[url('https://pepecoinsol.xyz/assets/images/logo/j3.jpg')]"></div>
+          <div className="w-full h-[90vh] mt-20 bg-cover bg-no-repeat bg-center bg-[url('https://pepecoinsol.xyz/assets/images/logo/j4.jpg')]"></div>
+        </div>
 
         <Footer />
       </div>

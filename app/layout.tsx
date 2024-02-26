@@ -11,8 +11,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/uncle-pepe-logo.png",
   },
-}
-
+};
 
 export default function RootLayout({
   children,
@@ -21,10 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
-      <body style={{background: '#000'}} className={inter.className}>
-       
-        {children} <StarsCanvas /></body>
+      <body style={{ background: "#09121d" }} className={inter.className}>
+        {children}
+      </body>
     </html>
   );
 }
