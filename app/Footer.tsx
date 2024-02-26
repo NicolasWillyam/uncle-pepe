@@ -31,7 +31,7 @@ import Stargate from "../public/STG_LOGO.webp";
 
 export default function Footer() {
   return (
-    <div className="w-full py-32 max-w-[1200px] mx-auto">
+    <div className="w-full py-32 max-w-[1200px] mx-auto sm:px-0 px-4">
       <p className="text-4xl font-bold text-white mb-10">
         We are building together.
       </p>

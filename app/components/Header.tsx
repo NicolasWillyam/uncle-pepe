@@ -11,7 +11,7 @@ export default function Header() {
           height={50}
           alt="image logo"
         />
-        <div className="ml-4 sm:ml-6 uppercase text-[20px] sm:text-[30px] font-extrabold">
+        <div className="ml-4 sm:ml-6 uppercase text-[16px] sm:text-[30px] font-extrabold">
           Unclepepe coin
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function Header() {
             <a href="https://t.me/UnclePepe_Sol">Telegram</a>
           </li>
         </ul>
-        <button className="text-[16px] font-medium px-4 py-1 sm:py-2 sm:px-8 bg-green-600 rounded-lg  duration-700 text-white">
+        <button className="text-[14px] sm:text-[16px] font-medium px-5 py-2 sm:py-2 sm:px-8 bg-green-600 rounded-lg  duration-700 text-white">
           Follow us
         </button>
       </div>
