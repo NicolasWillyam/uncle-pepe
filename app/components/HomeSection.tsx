@@ -79,9 +79,14 @@ export default function HomeSection() {
                 </div>
               </div>
 
-              <button className="text-[14px] sm:text-[16px] mt-8 font-medium px-5 py-1.5 sm:py-2 sm:px-8  rounded-lg bg-green-600 text-white">
-                Explore now
-              </button>
+              <div className="grid grid-cols-2 w-fit gap-2">
+                <button className="text-[14px] sm:text-[16px] mt-8 font-medium px-5 py-1.5 sm:py-2 sm:px-8  rounded-lg bg-green-600 text-white">
+                  <a href="https://x.com/UnclePepeSol">Twitter</a>
+                </button>
+                <button className="text-[14px] sm:text-[16px] mt-8 font-medium px-5 py-1.5 sm:py-2 sm:px-8  rounded-lg bg-green-600 text-white">
+                  <a href="https://t.me/UnclePepe_Sol">Telegram</a>
+                </button>
+              </div>
             </motion.div>
           </div>
           <motion.div
