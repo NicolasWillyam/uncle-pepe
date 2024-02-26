@@ -72,6 +72,13 @@ export default function HomeSection() {
                 the digital currency landscape. <br />
               </div>
 
+              <div className="mt-10 text-white font-medium">
+                <div className="text-[20px] font-bold">Contract Address : </div>
+                <div className="border-[1.5px] text-[12px] sm:text-[14px] border-white px-4 py-1.5 w-fit rounded-lg mt-4">
+                  TBA
+                </div>
+              </div>
+
              
 
               <div className="grid grid-cols-2 w-fit gap-2">
